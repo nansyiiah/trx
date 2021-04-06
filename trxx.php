@@ -24,7 +24,7 @@ $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 $headers[] = 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9';
 $headers[] = 'Sec-Fetch-Site: same-origin';
 $headers[] = 'Sec-Fetch-Dest: document';
-$headers[] = 'Referer: https://e.trx-trading.com/m/reg.php?t=QTRX1362037';
+$headers[] = 'Referer: https://e.trx-trading.com/m/reg.php?t='.$reff.';
 $headers[] = 'Accept-Language: id-ID,id;q=0.9';
 $headers[] = 'Cookie: stylesheet2=';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
